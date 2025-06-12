@@ -63,7 +63,7 @@ Clone this project into your ROS workspace:
 
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/your-username/human-pose-kinova.git
+git clone https://github.com/Mahmoud-Barbary/human-pose-controlled-robot-arm.git
 cd ..
 catkin_make
 source devel/setup.bash
@@ -85,7 +85,7 @@ I recommend following other tutorials and Kinova's documentation for environment
 Once the driver is up and running:
 
 ```bash
-rosrun your_package_name pose_to_kinova.py
+rosrun your_package_name mediapipe_pose_to_kinova.py
 ```
 Make sure your webcam is accessible and lighting is sufficient.
 
