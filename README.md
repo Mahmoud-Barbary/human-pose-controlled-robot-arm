@@ -2,6 +2,7 @@
 A real-time, vision-based system for controlling a 6-DOF robotic arm using human pose estimation. Built with MediaPipe and ROS MoveIt, this project explores intuitive human-robot collaboration without wearable sensors, demonstrating a simple but extensible framework for robotic motion replication using shoulder and elbow joint tracking.
 
 ## 🖼️ Demo
+https://github.com/user-attachments/assets/75216cd8-22f4-4e4a-9535-be4005dcab8a
 
 ## 🚀 Overview
 
@@ -32,7 +33,11 @@ A real-time, vision-based system for controlling a 6-DOF robotic arm using human
 ## 📌 Future Directions
 - Add depth sensing (3D pose estimation)
 - Modularize for different robotic arms
-- Add object manipulation via addition of robotic claw
+- Add object manipulation via add
+
+https://github.com/user-attachments/assets/75bf0186-e084-42a8-b25f-cb5422931b48
+
+ition of robotic claw
 - Improve latency and motion prediction
 
 ## 🛠 Dependencies
@@ -73,6 +78,7 @@ roslaunch kortex_driver kortex_driver.launch \
   ip_address:=192.168.1.10
 ```
 This IP address is the default for Kinova.
+
 I recommend following other tutorials and Kinova's documentation for environment set-up, as it is a lengthy process.
 
 ## ▶️ Running the System
