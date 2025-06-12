@@ -45,17 +45,15 @@ A real-time, vision-based system for controlling a 6-DOF robotic arm using human
   - `opencv-python`
   - `numpy`
   - `rospy`
-Install Python packages via:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## ⚙️ Environment Setup
+
 1. Install Kinova ROS Driver
+
 Follow Kinova’s documentation to install kortex_driver. Make sure the robot IP is reachable.
 
-2. ROS Workspace
+3. ROS Workspace
+
 Clone this project into your ROS workspace:
 
 ```bash
@@ -66,6 +64,7 @@ catkin_make
 source devel/setup.bash
 ```
 3. Launch Kinova Driver
+
 Connect your robot, then in a separate terminal:
 
 ```bash
@@ -74,6 +73,7 @@ roslaunch kortex_driver kortex_driver.launch \
   ip_address:=192.168.1.10
 ```
 This IP address is the default for Kinova.
+I recommend following other tutorials and Kinova's documentation for environment set-up, as it is a lengthy process.
 
 ## ▶️ Running the System
 Once the driver is up and running:
